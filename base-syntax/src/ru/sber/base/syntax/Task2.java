@@ -13,8 +13,6 @@ public class Task2 {
             for (int i = 1; i <= count; i++) {
                 System.out.print((i * 7) + " ");
             }
-            System.out.println();
         }
-        scanner.close();
     }
 }
