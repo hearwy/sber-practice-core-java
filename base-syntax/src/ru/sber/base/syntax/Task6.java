@@ -18,6 +18,6 @@ public class Task6 {
         }
         System.out.println("Массив " + Arrays.toString(arr));
         System.out.println("Максимальное значение = [" + maxValue + "] находится в элементе под индексом [" + maxIndex + "]");
-        System.out.println("Среднее значение = [" + (sum / arr.length) + "]");
+        System.out.println("Среднее значение = [" + sum / arr.length + "]");
     }
 }
