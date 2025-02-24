@@ -6,6 +6,5 @@ public class Task1 {
         System.out.print("Введите Ваше имя: ");
         String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
-        scanner.close();
     }
 }
