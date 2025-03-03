@@ -2,12 +2,9 @@ package ru.sber.base.syntax;
 
 import java.util.Scanner;
 public class Task9 {
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
         int code = (int)(Math.random() * 26 + 65);
-
         while (true) {
             System.out.println("Введите букву (a - z): ");
             String a = scan.nextLine();
