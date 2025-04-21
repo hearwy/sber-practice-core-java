@@ -2,16 +2,20 @@ package ru.sber.base.syntax;
 
 import java.util.Scanner;
 
-class Translate {
-
+class Task2_a {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
-        String new_num = translate(num);
-        System.out.print(new_num);
+        if ((num <= 100) & (num >= 1)) {
+            String new_num = translate(num);
+            System.out.print(new_num);
+        } else {
+            System.out.println("Число больше 100");
+        }
     }
     public static String translate(int num) {
         String new_number = "";
+
         if (num == 100) {
             new_number += "C";
         } else if (num / 10 < 4) {
