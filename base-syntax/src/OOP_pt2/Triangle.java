@@ -38,3 +38,4 @@ public class Triangle extends Figure implements Drawable {
         System.out.println("Нарисован треугольник цвета " + color + " с координатами " + point.toString());
     }
 }
+

@@ -27,3 +27,4 @@ public class PaintExample {
         System.out.println("Периметр квадрата: " + FigureUtil.perimeter(square));
     }
 }
+

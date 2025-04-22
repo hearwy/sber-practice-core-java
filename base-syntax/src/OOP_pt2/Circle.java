@@ -33,3 +33,4 @@ public class Circle extends Figure implements Drawable {
         System.out.println("Нарисован круг цвета " + color + " с координатами " + point.toString());
     }
 }
+
