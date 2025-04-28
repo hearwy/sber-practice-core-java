@@ -2,7 +2,6 @@ package ru.sber.base.syntax;
 
 public class Task3 {
     public static void main(String[] args) {
-
         final int even = 10;
         final int odd = 6;
 
